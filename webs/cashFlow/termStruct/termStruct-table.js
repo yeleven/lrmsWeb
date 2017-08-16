@@ -7,9 +7,28 @@ var columns = [{
     title: '期限名称',
     align: 'center'
 },{
+    field: 'termUp',
+    title: '期限上限值',
+    align: 'center'
+},{
+    field: 'termDown',
+    title: '期限下限值',
+    align: 'center'
+},{
+	field:'termeFfective',
+	title:'生效日期',
+	align:'center'
+},{
+	field:'termInvalid',
+	title:'失效日期',
+	align:'center'
+},{
+	field:'state',
+	title:'状态',
+	align:'center'
+},{
     field: 'option',
     title: '操作',
-    width: '110px',
     align: 'center',
     formatter: function (value, row, index) {
         // var e = '<a href="#" class="btn btn-default" onclick="onSearch(\'' + index + '\')"><i class="fa fa-search" title="查看"></i></a> ';
