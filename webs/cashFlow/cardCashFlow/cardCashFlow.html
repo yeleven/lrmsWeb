@@ -40,7 +40,7 @@
 						</select>
 					</div>
 					<div class="form-group">
-						<select id="productSel" class="input-select">
+						<select id="productCateSel" class="input-select">
 							<option>请选择所属产品大类</option>
 						</select>
 					</div>
@@ -70,29 +70,87 @@
 		<div id="tableContent" style="display: block;">
 			<table id="table" class="table-bordered"></table>
 		</div>
-		
+
 		<!--for pop up-->
 		<div class="wrapper" id="cardContent" style="display:none;width:100%;margin:1px;">
 			<form>
 				<div class="col-sm-12">
 					<div class="form-group col-sm-4">
 						<label>账卡编号</label>
-						<input class="form-control" readonly="readonly" value="20100001"/>
+						<input class="form-control" readonly="readonly" value="20100001" />
 					</div>
 					<div class="form-group col-sm-4">
 						<label>账卡名称</label>
-						<input class="form-control" />
+						<input class="form-control" placeholder="请输入账卡名称"/>
 					</div>
 					<div class="form-group col-sm-4">
 						<label>账卡类别</label>
-						<select id="cardCateSel_pop1" class="form-control">
-							<option>请选择账卡类别</option>
+						<select id="cardCateSel_pop" style="width: 100%;">
+							<!--<option>请选择账卡类别</option>-->
 						</select>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<div class="form-group col-sm-4">
+						<label>大类产品</label>
+						<select id="productCateSel_pop" class="form-control" style="width: 100%;">
+						</select>
+					</div>
+					<div class="form-group col-sm-4">
+						<label>所属产品</label>
+						<select id="productSel_pop" class="form-control" style="width: 100%;">
+						</select>
+					</div>
+					<div class="form-group col-sm-4">
+						<label>所属条线</label>
+						<select id="lineSel_pop" class="form-control" style="width: 100%;">
+						</select>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<div class="form-group col-sm-4">
+						<label>利率类型</label>
+						<select id="rateTypeSel_pop" class="form-control" style="width: 100%;">
+						</select>
+					</div>
+					<div class="form-group col-sm-4">
+						<label>期限类型</label>
+						<select id="termTypeSel_pop" class="form-control" style="width: 100%;">
+						</select>
+					</div>
+					<div class="form-group col-sm-4">
+						<label>现金流方式</label>
+						<select id="cashFlowStyleSel_pop" class="form-control" style="width: 100%;">
+						</select>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<div class="form-group col-sm-6">
+						<label>流入流出标志</label>
+						<select id="inOutFlagSel_pop" class="form-control" style="width: 100%;">
+						</select>
+					</div>
+					<div class="form-group col-sm-6">
+						<label>模型编号</label>
+						<select id="modelIdSel_pop" class="form-control" style="width: 100%;">
+						</select>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<div class="form-group col-sm-12">
+						<label>所属部门</label>
+						<select id="depSel_pop" class="form-control" style="width: 100%;" multiple="multiple"></select>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<div class="form-group col-sm-12">
+						<label>取数逻辑</label>
+						<textarea id="dataLogic" class="form-control" rows="6"></textarea>
 					</div>
 				</div>
 			</form>
 		</div>
-		
+
 		<!--public-->
 		<script src="../../../js/jquery.min.js"></script>
 		<script src="../../../js/bootstrap.min.js"></script>
