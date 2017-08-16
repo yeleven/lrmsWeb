@@ -60,15 +60,37 @@
 
 					<a id="search" type="submit" class="btn btn-default search"><i class="fa fa-search" title="开始搜索"></i></a>
 					<a id="reset" class="btn btn-default"><i class="glyphicon glyphicon-refresh" title="重置"></i></a>
-					<a class="btn btn-default"><i class="glyphicon glyphicon-plus-sign" title="新增"></i></a>
+					<a id="add" class="btn btn-default"><i class="glyphicon glyphicon-plus-sign" title="新增"></i></a>
 				</form>
 			</div>
 		</div>
 
 		<br>
+		<!--for table-->
 		<div id="tableContent" style="display: block;">
-			<!--for table-->
 			<table id="table" class="table-bordered"></table>
+		</div>
+		
+		<!--for pop up-->
+		<div class="wrapper" id="cardContent" style="display:none;width:100%;margin:1px;">
+			<form>
+				<div class="col-sm-12">
+					<div class="form-group col-sm-4">
+						<label>账卡编号</label>
+						<input class="form-control" readonly="readonly" value="20100001"/>
+					</div>
+					<div class="form-group col-sm-4">
+						<label>账卡名称</label>
+						<input class="form-control" />
+					</div>
+					<div class="form-group col-sm-4">
+						<label>账卡类别</label>
+						<select id="cardCateSel_pop1" class="form-control">
+							<option>请选择账卡类别</option>
+						</select>
+					</div>
+				</div>
+			</form>
 		</div>
 		
 		<!--public-->
@@ -92,6 +114,7 @@
 		<!--private-->
 		<script src="cardCashFlow-table.js"></script>
 		<script src="cardCashFlow-select.js"></script>
+		<script src="cardCashFlow-pop.js"></script>
 		<!--init-->
 		<script>
 			$(document).ready(function() {

@@ -9,7 +9,8 @@ function initSelect() {
 		placeholder: "请选择所属条线"
 	});
 	$("#productSel").select2({});
-	$("#cardCateSel").select2({})
+	$("#cardCateSel").select2({});
+	$('#cardCateSel_pop').select2({});
 
 	//init options to "#lineSel"
 	var lineSel = $('#lineSel');
@@ -29,9 +30,11 @@ function initSelect() {
 	
 	//init options to "#cardCateSel"
 	var cardCateSel = $('#cardCateSel');
+	var cardCateSelPop = $('#cardCateSel_pop');
 	$.getJSON(selUrl, function(res) {
 		res[0].cardCate.forEach(function(val, index) {
 			cardCateSel.append("<option>" + val + "</option>")
+			cardCateSelPop.append("<option>" + val + "</option>")
 		})
 	})
 

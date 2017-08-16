@@ -36,10 +36,16 @@
 		<div class="row">
 			<div class="col-xs-12 text-right">
 				<form class="form-inline">
-
+					<div class="form-group">
+						<select id="stateSel" class="input-select">
+							<option>请选择状态</option>
+							<option>生效</option>
+							<option>失效</option>
+						</select>
+					</div>
 					<a id="search" type="submit" class="btn btn-default search"><i class="fa fa-search" title="开始搜索"></i></a>
-					<a id="reset" class="btn btn-default"><i class="glyphicon glyphicon-refresh" title="重置"></i></a>
 					<a class="btn btn-default"><i class="glyphicon glyphicon-plus-sign" title="新增"></i></a>
+					<a id="reset" class="btn btn-default"><i class="glyphicon glyphicon-floppy-disk" title="保存"></i></a>
 				</form>
 			</div>
 		</div>
@@ -70,7 +76,7 @@
 		<script src="../../../js/select2.full.min.js"></script>
 		<!--private-->
 		<script src="termStruct-table.js"></script>
-		<!--	<script src="cardCashFlow-select.js"></script>-->
+		<script src="termStruct-select.js"></script>
 		<!--init-->
 		<script>
 			$(document).ready(function() {
@@ -78,7 +84,7 @@
 				//        initOrgTree();
 				//        initChart();
 				initTable();
-				//				initSelect();
+				initSelect();
 			});
 		</script>
 	</body>
