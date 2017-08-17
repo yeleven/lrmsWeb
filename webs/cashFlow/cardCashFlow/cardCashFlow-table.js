@@ -59,8 +59,8 @@ var columns = [{
     align: 'center',
     formatter: function (value, row, index) {
         // var e = '<a href="#" class="btn btn-default" onclick="onSearch(\'' + index + '\')"><i class="fa fa-search" title="查看"></i></a> ';
-        var d = '<a href="#" class="btn btn-default" onclick=""><i class="glyphicon glyphicon-edit" title="编辑"></i></a> ';
-        var f = '<a href="#" class="btn btn-default" onclick=""><i class="glyphicon glyphicon-trash" title="作废"></i></a> ';
+        var d = '<a href="#" class="btn btn-default" onclick="edit()"><i class="glyphicon glyphicon-edit" title="编辑"></i></a> ';
+        var f = '<a href="#" class="btn btn-default" onclick=""><i class="glyphicon glyphicon-remove" title="删除"></i></a> ';
         return d + f;
     }
 }];

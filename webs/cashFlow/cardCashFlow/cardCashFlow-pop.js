@@ -4,8 +4,9 @@ $('#add').click(function(){
 		type: 1,
 		content: $('#cardContent'),
 		title: ['新增账卡', 'color:rgb(99,102,104)'],
-		area: ['1000px', '400px'],
+		area: ['800px', '700px'],
 		maxmin: false,
+		zIndex: 100,
 		btn: ['确定', '取消'],
 		yes: function(index, layero) {
 //			$('#orgId').val(node_temp.id);
@@ -15,3 +16,21 @@ $('#add').click(function(){
 		btn2: function(index, layero) {}
 	});
 })
+
+function edit(){
+	layer.open({
+		type: 1,
+		content: $('#cardContent'),
+		title: ['新增账卡', 'color:rgb(99,102,104)'],
+		area: ['800px', '700px'],
+		maxmin: false,
+		zIndex: 100,
+		btn: ['确定', '取消'],
+		yes: function(index, layero) {
+//			$('#orgId').val(node_temp.id);
+//			$('#orgName').val(node_temp.name);
+			layer.close(index);
+		},
+		btn2: function(index, layero) {}
+	});
+}
