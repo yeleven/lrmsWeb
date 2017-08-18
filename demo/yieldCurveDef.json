@@ -1,12 +1,69 @@
 [
 	{
 		"yieldId": "yield01",
-		"yieldName": "收益率曲线01"
+		"yieldName": "存款基准利率"
 	},{
 		"yieldId": "yield02",
-		"yieldName": "收益率曲线02"
+		"yieldName": "人民币通知存款利率"
 	},{
 		"yieldId": "yield03",
-		"yieldName": "收益率曲线03"
+		"yieldName": "贷款基准利率"
+	},{
+		"yieldId": "yield04",
+		"yieldName": "贷款基础利率（LPR"
+	},{
+		"yieldId": "yield05",
+		"yieldName": "个人住房公积金贷款利率"
+	},{
+		"yieldId": "yield06",
+		"yieldName": "信用卡透支利率"
+	},{
+		"yieldId": "yield07",
+		"yieldName": "法定准备金利率"
+	},{
+		"yieldId": "yield08",
+		"yieldName": "超额准备金利率"
+	},{
+		"yieldId": "yield09",
+		"yieldName": "再贷款利率"
+	},{
+		"yieldId": "yield10",
+		"yieldName": "再贴现利率"
+	},{
+		"yieldId": "yield11",
+		"yieldName": "公开市场逆回购利率"
+	},{
+		"yieldId": "yield12",
+		"yieldName": "公开市场正回购利率"
+	},{
+		"yieldId": "yield13",
+		"yieldName": "小额外币存款基准利率"
+	},{
+		"yieldId": "yield14",
+		"yieldName": "上海银行间同业拆放利率（SHIBOR）"
+	},{
+		"yieldId": "yield15",
+		"yieldName": "银行间质押式回购利率"
+	},{
+		"yieldId": "yield16",
+		"yieldName": "回购定盘利率"
+	},{
+		"yieldId": "yield17",
+		"yieldName": "伦敦同业拆借利率（LIBOR）"
+	},{
+		"yieldId": "yield18",
+		"yieldName": "欧元银行间同业拆借利率（EURIBOR）"
+	},{
+		"yieldId": "yield19",
+		"yieldName": "O/N Shibor OIS曲线"
+	},{
+		"yieldId": "yield20",
+		"yieldName": "3M Shibor IRS曲线"
+	},{
+		"yieldId": "yield21",
+		"yieldName": "FR007 IRS曲线"
+	},{
+		"yieldId": "yield22",
+		"yieldName": "LIBOR IRS曲线"
 	}
 ]

@@ -1,38 +1,142 @@
 [
 	{
 		"id": "001",
-		"assetsName": "xxx",
-		"assetsClass": "xxx",
-		"fetchLogic": "xxx"
+		"assetsName": "现金",
+		"assetsClass": "一级资产",
+		"needSource": "监管要求",
+		"assetsBelongs": "现金"
 	},
 	{
 		"id": "002",
-		"assetsName": "xxx",
-		"assetsClass": "xxx",
-		"fetchLogic": "xxx"
+		"assetsName": "压力条件下可动用的央行准备金",
+		"assetsClass": "一级资产",
+		"needSource": "监管要求",
+		"assetsBelongs": "其它"
 	},
 	{
 		"id": "003",
-		"assetsName": "xxx",
-		"assetsClass": "xxx",
-		"fetchLogic": "xxx"
+		"assetsName": "主权国家发行的风险权重为0的证券",
+		"assetsClass": "一级资产",
+		"needSource": "监管要求",
+		"assetsBelongs": "债券"
 	},
 	{
 		"id": "004",
-		"assetsName": "xxx",
-		"assetsClass": "xxx",
-		"fetchLogic": "xxx"
+		"assetsName": "主权国家担保的风险权重为0的证券",
+		"assetsClass": "一级资产",
+		"needSource": "监管要求",
+		"assetsBelongs": "债券"
 	},
 	{
 		"id": "005",
-		"assetsName": "xxx",
-		"assetsClass": "xxx",
-		"fetchLogic": "xxx"
+		"assetsName": "2A资产-公司债券",
+		"assetsClass": "2A资产",
+		"needSource": "监管要求",
+		"assetsBelongs": "债券"
 	},
 	{
 		"id": "006",
-		"assetsName": "xxx",
-		"assetsClass": "xxx",
-		"fetchLogic": "xxx"
+		"assetsName": "2A资产-风险权重为20%的证券-主权国家担保的",
+		"assetsClass": "2A资产",
+		"needSource": "监管要求",
+		"assetsBelongs": "债券"
+	},
+	{
+		"id": "007",
+		"assetsName": "2A资产-风险权重为20%的证券-公共部门实体发行或担保的",
+		"assetsClass": "2A资产",
+		"needSource": "监管要求",
+		"assetsBelongs": "债券"
+	},
+	{
+		"id": "008",
+		"assetsName": "2B资产-公司债券",
+		"assetsClass": "2B资产",
+		"needSource": "监管要求",
+		"assetsBelongs": "债券"
+	},
+	{
+		"id": "009",
+		"assetsName": "超额准备金存款",
+		"assetsClass": "一级资产",
+		"needSource": "行内要求",
+		"assetsBelongs": "其它"
+	},
+	{
+		"id": "010",
+		"assetsName": "主权国家发行的风险权重为0的证券-国债",
+		"assetsClass": "一级资产",
+		"needSource": "行内要求",
+		"assetsBelongs": "债券"
+	},
+	{
+		"id": "011",
+		"assetsName": "主权国家担保的风险权重为0的证券-汇金债",
+		"assetsClass": "一级资产",
+		"needSource": "行内要求",
+		"assetsBelongs": "债券"
+	},
+	{
+		"id": "012",
+		"assetsName": "主权国家担保的风险权重为0的证券-企业债",
+		"assetsClass": "一级资产",
+		"needSource": "行内要求",
+		"assetsBelongs": "债券"
+	},
+	{
+		"id": "013",
+		"assetsName": "主权国家担保的风险权重为0的证券-政策性银行债",
+		"assetsClass": "一级资产",
+		"needSource": "行内要求",
+		"assetsBelongs": "债券"
+	},
+	{
+		"id": "014",
+		"assetsName": "2A资产-公司债券-企业债",
+		"assetsClass": "2A资产",
+		"needSource": "行内要求",
+		"assetsBelongs": "债券"
+	},
+	{
+		"id": "015",
+		"assetsName": "2A资产-公司债券-中期票据",
+		"assetsClass": "2A资产",
+		"needSource": "行内要求",
+		"assetsBelongs": "债券"
+	},
+	{
+		"id": "016",
+		"assetsName": "2A资产-公司债券-短期融资券",
+		"assetsClass": "2A资产",
+		"needSource": "行内要求",
+		"assetsBelongs": "债券"
+	},
+	{
+		"id": "017",
+		"assetsName": "2A资产-风险权重为20%的证券-主权国家担保的-企业债",
+		"assetsClass": "2A资产",
+		"needSource": "行内要求",
+		"assetsBelongs": "债券"
+	},
+	{
+		"id": "018",
+		"assetsName": "2A资产-风险权重为20%的证券-公共部门实体发行或担保的-铁道债",
+		"assetsClass": "2A资产",
+		"needSource": "行内要求",
+		"assetsBelongs": "债券"
+	},
+	{
+		"id": "019",
+		"assetsName": "2A资产-风险权重为20%的证券-公共部门实体发行或担保的-地方政府债",
+		"assetsClass": "2A资产",
+		"needSource": "行内要求",
+		"assetsBelongs": "债券"
+	},
+	{
+		"id": "020",
+		"assetsName": "存放同业活期",
+		"assetsClass": "一级资产",
+		"needSource": "行内要求",
+		"assetsBelongs": "其它"
 	}
 ]

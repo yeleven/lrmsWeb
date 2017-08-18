@@ -12,12 +12,17 @@ var columns = [{
 	title: '资产类别',
 	align: 'center'
 }, {
-	field: 'fetchLogic',
-	title: '取数逻辑',
+	field: 'needSource',
+	title: '需求来源',
+	align: 'center'
+}, {
+	field: 'assetsBelongs',
+	title: '资产归属',
 	align: 'center'
 }, {
 	field: 'option',
 	title: '操作',
+	width: '110px',
 	align: 'center',
 	formatter: function(value, row, index) {
 		var d = '<a href="#" class="btn btn-default" onclick=""><i class="glyphicon glyphicon-edit" title="编辑"></i></a> ';
@@ -32,6 +37,8 @@ function initTable() {
 		url: './demo/premiumLiquidityAssetDefinition.json',
 		cache: false, //是否使用缓存，默认为true，所以一般情况下需要设置一下这个属性（*）
 		pagination: false, //是否显示分页（*）
+		pageList:[10],
+		striped: true,
 		columns: columns
 	});
 }

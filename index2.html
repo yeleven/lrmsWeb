@@ -28,7 +28,7 @@
 				<button class="cn-button" id="cn-button">Close</button>
 				<div class="cn-wrapper opened-nav" id="cn-wrapper">
 					<ul>
-						<li><a href="staticCashFlowGapStatistics.html"><span>流动性管理<br />报表</span></a></li>
+						<li><a href="#" onclick="cashFlowChoice()"><span>现金流管理</span></a></li>
 						<li><a href="productAnalysis.html"><span>产品分析</span></a></li>
 						<li><a href="#" onclick="indexChoice()"><span>指标管理</span></a></li>
 						<li><a href="#"><span>监管报表</span></a></li>
@@ -116,8 +116,17 @@
 			<p>重庆市渝中区人和街74号12楼</p>
 		</div>
 		<!-- /footer -->
-
+		
 		<!-- pop up -->
+		<div id="cashFlowChoice" style="background-color: #52be7f; display: none;">
+			<header>
+			<nav class="codrops-demos">
+				<a href="staticCashFlowGapStatistics.html">现金流缺口统计</a>
+				<a href="webs/cashFlow/cardCashFlow/cardCashFlow.html">账户册现金流属性定义</a>
+				<a href="webs/cashFlow/termStruct/termStruct.html">账户册期限结构定义</a>
+			</nav>
+			</header>
+		</div>
 		<div id="indexChoice" style="background-color: #52be7f; display: none;">
 			<header>
 			<nav class="codrops-demos">

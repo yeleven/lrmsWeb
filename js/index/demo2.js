@@ -24,6 +24,15 @@
 
 })();
 
+function cashFlowChoice(){
+	layer.open({
+		type: 1,
+		content: $('#cashFlowChoice'),
+		title: false,
+		area: ['500px', '60px'],
+	});
+}
+
 function indexChoice(){
 	layer.open({
 		type: 1,
