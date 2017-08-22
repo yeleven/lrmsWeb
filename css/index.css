@@ -1,0 +1,87 @@
+.grid-item {
+	float: left;
+	margin: 10px;
+	width: 30%;
+	height: 400px;
+	/*border: 2px solid #00B83F;*/
+}
+.child1 {
+	float: left;
+	margin: 1%;
+	width: 30%;
+	height: 20%;
+	border: 2px solid hsla(0, 0%, 0%, 0.5);
+	text-align: center;
+}
+.child2 {
+	float: left;
+	margin: 1%;
+	width: 30%;
+	height: 45%;
+	border: 2px solid hsla(0, 0%, 0%, 0.5);
+	text-align: center;
+}
+.child3 {
+	float: left;
+	margin: 1%;
+	width: 30%;
+	height: 30%;
+	border: 2px solid hsla(0, 0%, 0%, 0.5);
+	text-align: center;
+}
+.child4 {
+	float: left;
+	margin: 1%;
+	width: 45%;
+	height: 45%;
+	border: 2px solid hsla(0, 0%, 0%, 0.5);
+	text-align: center;
+}
+.child5 {
+	float: left;
+	margin: 1%;
+	width: 45%;
+	height: 90%;
+	border: 2px solid hsla(0, 0%, 0%, 0.5);
+	text-align: center;
+}
+.child6 {
+	float: left;
+	margin: 1%;
+	width: 30%;
+	height: 90%;
+	border: 2px solid hsla(0, 0%, 0%, 0.5);
+	text-align: center;
+}
+.child7 {
+	float: left;
+	margin: 1%;
+	width: 45%;
+	height: 35%;
+	border: 2px solid hsla(0, 0%, 0%, 0.5);
+	text-align: center;
+}
+.child8 {
+	float: left;
+	margin: 1%;
+	width: 90%;
+	height: 90%;
+	border: 2px solid hsla(0, 0%, 0%, 0.5);
+	text-align: center;
+}
+.height1 {
+	height: 600px;
+}
+.height2 {
+	height: 200px;
+}
+.height3 {
+	height: 300px;
+}
+.fontSize {
+	font-size: large;
+	color: #000000;
+	position: relative;
+	top: 40%;
+	transform: translateY(-50%);
+}
