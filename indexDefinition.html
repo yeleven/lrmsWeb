@@ -15,9 +15,9 @@
 	<body class="panel-body" style="padding-bottom:0px;">
 		<div class="row">
 			<div class="col-lg-12">
-					<ol class="breadcrumb">
+				<ol class="breadcrumb">
 					<li>
-						<a href="index2.html">首页</a>
+						<a href="index.html">首页</a>
 					</li>
 					<li>
 						<a href="#">指标管理</a>
@@ -30,52 +30,54 @@
 		</div>
 		<!--header-->
 		<div class="row" style="padding-left: 2%;">
-			<form class="form-inline">
-				<div class="form-group">
-					<label>指标编号</label>
-					<div class="input-group">
-						<input type="text" class="form-control" id="indexId">
+			<div class="col-xs-12 text-right">
+				<form class="form-inline">
+					<div class="form-group">
+						<!--<label>指标编号</label>-->
+						<div class="input-group">
+							<input type="text" class="form-control" id="indexId" placeholder="指标编号/指标名称">
+						</div>
 					</div>
-				</div>
-				<div class="form-group">
-					<label>指标名称</label>
-					<div class="input-group">
-						<input type="text" class="form-control" id="indexName">
+					<!--<div class="form-group">
+						<label>指标名称</label>
+						<div class="input-group">
+							<input type="text" class="form-control" id="indexName">
+						</div>
+					</div>-->
+					<div class="form-group">
+						<label>指标类别</label>
+						<select class="input-select" id="indexType">
+							<option>----------请选择----------</option>
+							<option>---A---</option>
+							<option>---B---</option>
+							<option>---C---</option>
+							<option>---D---</option>
+						</select>
 					</div>
-				</div>
-				<div class="form-group">
-					<label>指标类别</label>
-					<select class="input-select" id="indexType">
-						<option>----------请选择----------</option>
-						<option>---A---</option>
-						<option>---B---</option>
-						<option>---C---</option>
-						<option>---D---</option>
-					</select>
-				</div>
-				<div class="form-group">
-					<label>指标细类</label>
-					<select class="input-select" id="indexClass">
-						<option>----------请选择----------</option>
-						<option>---A1---</option>
-						<option>---A2---</option>
-						<option>---A3---</option>
-						<option>---A4---</option>
-					</select>
-				</div>
-				<div class="form-group" >
-					<label>指标状态</label>
-					<div class="checkbox">
-						<input type="checkbox" value="">正常
-						<input type="checkbox" value="">作废
+					<div class="form-group">
+						<label>指标细类</label>
+						<select class="input-select" id="indexClass">
+							<option>----------请选择----------</option>
+							<option>---A1---</option>
+							<option>---A2---</option>
+							<option>---A3---</option>
+							<option>---A4---</option>
+						</select>
 					</div>
-				</div>
-				<div class="form-group">
-					<a id="search" type="submit" class="btn btn-default"><i class="fa fa-search" title="开始搜索"></i></a>
-					<a id="reset" class="btn btn-default"><i class="glyphicon glyphicon-refresh" title="重置"></i></a>
-					<a id="indexAdd" class="btn btn-default"><i class="glyphicon glyphicon-plus-sign" title="指标新增"></i></a>
-				</div>
-			</form>
+					<div class="form-group">
+						<label>指标状态</label>
+						<div class="checkbox">
+							<input type="checkbox" value="">正常
+							<input type="checkbox" value="">作废
+						</div>
+					</div>
+					<div class="form-group">
+						<a id="search" type="submit" class="btn btn-default"><i class="fa fa-search" title="开始搜索"></i></a>
+						<a id="reset" class="btn btn-default"><i class="glyphicon glyphicon-refresh" title="重置"></i></a>
+						<a id="indexAdd" class="btn btn-default"><i class="glyphicon glyphicon-plus-sign" title="指标新增"></i></a>
+					</div>
+				</form>
+			</div>
 		</div>
 		<br />
 		<div id="tableContent" style="display: block;">
@@ -293,17 +295,20 @@
 			<form>
 				<div class="col-xs-12">
 					<div class="form-group col-xs-12">
-						<label>下限值</label><input class="form-control" />
+						<label>下限值</label>
+						<input class="form-control" />
 					</div>
 				</div>
 				<div class="col-xs-12">
 					<div class="form-group col-xs-12">
-						<label>上限值</label><input class="form-control" />
+						<label>上限值</label>
+						<input class="form-control" />
 					</div>
 				</div>
 				<div class="col-xs-12">
 					<div class="form-group col-xs-12">
-						<label>区间开闭</label><select class="form-control">
+						<label>区间开闭</label>
+						<select class="form-control">
 							<option>开-闭</option>
 							<option>开-开</option>
 							<option>闭-开</option>
@@ -313,11 +318,12 @@
 				</div>
 				<div class="col-xs-12">
 					<div class="form-group col-xs-12">
-					<label>区间对应颜色</label><select class="form-control">
-						<option>绿</option>
-						<option>黄</option>
-						<option>红</option>
-					</select>
+						<label>区间对应颜色</label>
+						<select class="form-control">
+							<option>绿</option>
+							<option>黄</option>
+							<option>红</option>
+						</select>
 					</div>
 				</div>
 			</form>

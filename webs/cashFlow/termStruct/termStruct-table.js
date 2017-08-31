@@ -29,13 +29,13 @@ var columns = [{
 },{
     field: 'option',
     title: '操作',
-    width: '80px',
+    width: '110px',
     align: 'center',
     formatter: function (value, row, index) {
         // var e = '<a href="#" class="btn btn-default" onclick="onSearch(\'' + index + '\')"><i class="fa fa-search" title="查看"></i></a> ';
-//      var d = '<a href="#" class="btn btn-default" onclick=""><i class="glyphicon glyphicon-edit" title="编辑"></i></a> ';
+        var d = '<a href="#" class="btn btn-default" onclick="onEdit()"><i class="glyphicon glyphicon-edit" title="编辑"></i></a> ';
         var f = '<a href="#" class="btn btn-default" onclick=""><i class="glyphicon glyphicon-trash" title="失效"></i></a> ';
-        return f;
+        return d + f;
     }
 }];
 

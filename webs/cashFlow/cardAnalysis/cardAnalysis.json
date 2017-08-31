@@ -1,0 +1,13 @@
+[
+	{
+		"date": "2017-08-29",
+		"orgName": "渝中分行",
+		"cardId": "1245114",
+		"cardName": "现金",
+		"selectTermAmount": "<a href='#' onclick=chartView()>100000.00</a>",
+		"analysisTermAmount": "200000.00",
+		"unit": "亿元",
+		"changeRate": "0.00",
+		"inOut": "流入"
+	}
+]

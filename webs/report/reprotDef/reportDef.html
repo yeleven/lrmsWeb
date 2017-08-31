@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>报表定义</title>
+		
+		<link href="../../../css/bootstrap.min.css" rel="stylesheet" />
+		<link href="../../../css/font-awesome.min.css" rel="stylesheet" />
+		<link href="../../../css/style.css" rel="stylesheet" />
+		<link href="../../../css/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+		<link href="../../../css/zTreeStyle/zTreeStyle.css" rel="stylesheet" />
+		<link href="../../../css/bootstrap-table/bootstrap-table.min.css" />
+		<link href="../../../css/select2.min.css" rel="stylesheet" />
+	</head>
+	<body class="panel-body" style="padding-bottom:0px;">
+		<!--top for nav-->
+		<div class="row">
+			<div class="col-lg-12">
+				<ol class="breadcrumb">
+					<li>
+						<a href="../../../index.html">首页</a>
+					</li>
+					<li>
+						监管报表
+					</li>
+					<li>
+						<a href="reportDef.html"><span style="color: black; font-style: oblique;">报表定义</span></a>
+					</li>
+				</ol>
+			</div>
+		</div>
+		<!--top for search-->
+		<div class="row">
+			<div class="col-xs-12 text-right">
+				<form class="form-inline">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="报表编号/报表名称">
+					</div>
+
+					<a id="search" type="submit" class="btn btn-default search"><i class="fa fa-search" title="开始搜索"></i></a>
+					<a id="reset" class="btn btn-default"><i class="glyphicon glyphicon-refresh" title="重置"></i></a>
+					<a id="add" class="btn btn-default"><i class="glyphicon glyphicon-plus-sign" title="新增"></i></a>
+				</form>
+			</div>
+		</div>
+		
+		<br>
+		<!--for table-->
+		<div id="tableContent" style="display: block;">
+			<table id="table" class="table-bordered"></table>
+		</div>
+		
+		<!--for pop up-->
+		<div class="wrapper" id="cardContent" style="display:none;width:100%;margin:1px;">
+			<form>
+				<div class="col-sm-12">
+					<div class="form-group col-sm-6">
+						<label>报表编号</label>
+						<input class="form-control" placeholder="请输入报表编号" />
+					</div>
+					<div class="form-group col-sm-6">
+						<label>报表名称</label>
+						<input class="form-control" placeholder="请输入报表名称"/>
+					</div>
+					<div class="form-group col-sm-6">
+						<label>行数</label>
+						<input class="form-control" type="number" />
+					</div>
+					<div class="form-group col-sm-6">
+						<label>列数</label>
+						<input class="form-control" type="number" />
+					</div>
+					<div class="form-group col-sm-12">
+						<label>频率</label>
+						<select id="frequenceSel" class="form-control" style="width: 100%;">
+						</select>
+					</div>
+				</div>
+			</form>
+		</div>
+		
+		<!--public-->
+		<script src="../../../js/jquery.min.js"></script>
+		<script src="../../../js/bootstrap.min.js"></script>
+		<!--date-->
+		<script src="../../../js/bootstrap-datetimepicker.min.js"></script>
+		<script src="../../../js/bootstrap-datetimepicker.zh-CN.js"></script>
+		<!--tree-->
+		<script src="../../../js/jquery.ztree.all.min.js"></script>
+		<!--layer for pop up-->
+		<script src="../../../js/layer/layer.min.js"></script>
+		<!--chart-->
+		<script src="../../../js/Chart.js-2.6.0/dist/Chart.js"></script>
+		<!--table-->
+		<script src="../../../js/bootstrap-table/bootstrap-table.min.js"></script>
+		<script src="../../../js/bootstrap-table/bootstrap-table-mobile.min.js"></script>
+		<script src="../../../js/bootstrap-table/locale/bootstrap-table-zh-CN.js"></script>
+		<!--select-->
+		<script src="../../../js/select2.full.min.js"></script>
+		<!--private-->
+		<script src="reportDef-table.js"></script>
+		<script src="report-pop.js"></script>
+		<script src="report-select.js"></script>
+		<!--init-->
+		<script>
+			$(document).ready(function() {
+				//        initCurrentDate();
+				//        initOrgTree();
+				//        initChart();
+				initTable();
+				initSelect();
+			});
+		</script>
+	</body>
+</html>
